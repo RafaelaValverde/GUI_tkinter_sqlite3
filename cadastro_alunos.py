@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from db_alunos import Database
 
-db = Database('store.db')
+db = Database('alunos.db')
 
 
 def add_item():
